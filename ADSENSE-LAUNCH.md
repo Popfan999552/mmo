@@ -1,6 +1,6 @@
 # Advertising launch checklist
 
-This site is prepared as an original, playable static game with supporting content and a privacy policy matching the current implementation. It contains no advertising or analytics code. AdSense approval is a decision by Google; this package does not guarantee approval.
+This site is prepared as an original, playable static game with supporting content and a privacy policy matching the current implementation. The supplied Google AdSense Auto ads script for publisher `ca-pub-5262735009654116` is included once in the head of all five HTML pages. No separate analytics code is installed. AdSense approval is a decision by Google; this package does not guarantee approval.
 
 Before applying:
 
@@ -8,8 +8,8 @@ Before applying:
 2. Confirm the linked GitHub issue tracker is enabled and monitored. Add an actual operator name and a working private contact email if needed for your operation and applicable requirements. Do not invent identity or addresses. The contact page currently provides public issue reporting only.
 3. Review Google's current AdSense eligibility, publisher, privacy, and game advertising placement policies. Keep original explanatory content on the landing page and all supporting pages useful and accurate.
 4. Add your real domain's canonical URLs and a sitemap after the domain is known; submit it to Search Console. The included robots.txt allows indexing. No fake domain or sitemap URL is supplied.
-5. Add only the official AdSense verification code supplied by your account. When Google supplies the publisher record, create a root `ads.txt` using that exact record. Do not publish placeholder publisher IDs.
-6. Before loading advertising or analytics, update the privacy policy with actual providers, data practices, cookies, retention, disclosures, and opt-out links. Use a Google-certified consent management platform where required, including applicable EEA/UK/Swiss requirements. This site does not currently include a consent platform because it loads no advertising/tracking technology.
+5. The user-supplied AdSense script is installed. Enable Auto ads for the deployed domain in your AdSense account and complete the required site approval. When Google supplies the publisher record, create a root `ads.txt` using that exact record. No `ads.txt` is included yet.
+6. The privacy policy now describes Google advertising, cookies, and opt-out links. Configure a Google-certified consent management platform where required, including applicable EEA/UK/Swiss requirements, before serving ads to those visitors. No consent platform is installed in this package. Review the policy against the actual AdSense, consent, and hosting configuration.
 7. Keep ads outside the canvas, controls, and navigation. Clearly label placements. Avoid overlays, misleading buttons, accidental clicks, and rewards for clicking ads. Do not encourage visitors to click ads. Check mobile spacing again after enabling ads.
 8. Verify hosting-provider logging practices against the published privacy policy. Review jurisdiction-specific requirements with appropriate advice when needed.
 

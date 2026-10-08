@@ -1,6 +1,6 @@
 # Orbit Orchard
 
-Original responsive HTML5 arcade game. Plain HTML, CSS, JavaScript; no build step, packages, backend, or external assets. Open `index.html` directly to play, or serve the folder:
+Original responsive HTML5 arcade game. Plain HTML, CSS, JavaScript; no build step, packages, backend, or external game assets. All five pages load the supplied Google AdSense script for advertising. Open `index.html` directly to play, or serve the folder:
 
 ```sh
 cd /workspace/mmo
@@ -24,3 +24,7 @@ Catch stars for 100 points each; every ten stars adds a level. Avoid debris; thr
 ## Validation
 
 Chromium browser checks exercise scoring, level progression, pause/resume, restart, sound preference, game over, score persistence and clearing, supporting page responses, and mobile overflow. No dependencies are required to run the website. Local storage can be blocked without preventing play.
+
+## Advertising document structure
+
+The game canvas and AdSense script are in the top-level HTML document. There are no site-authored iframes or embedded game documents. The script is present once in each page head; Auto ads manages placements in that page, with no manual ad units configured. Google may use its own internal iframes to render ad creatives. Configure Auto ads exclusions in AdSense for the `.game-layout` area and disable overlay formats if needed to keep ads away from gameplay controls. Advertising cannot be validated as serving until the site is deployed and approved.
